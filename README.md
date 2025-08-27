@@ -1,2 +1,2 @@
 # Curso-Senac
-Projetos Aqui do Senac
+Projetos e Exercícios Aqui do Senac
