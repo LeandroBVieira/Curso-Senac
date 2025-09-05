@@ -1,2 +1,2 @@
 # Curso-Senac
-Projetos e Exercícios Aqui do **Senac**, testando coisas *novas*
+Projetos e Exercícios feitos no **Senac**, testando coisas *novas*
