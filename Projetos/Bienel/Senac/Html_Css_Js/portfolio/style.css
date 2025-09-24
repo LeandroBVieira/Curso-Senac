@@ -1,0 +1,15 @@
+body {
+    background: url('img/foto.jpg') no-repeat right;
+    background-size: 40%;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Condensed';
+}
+
+span {
+    color: orangered;
+}
+
+.enfase {
+    font-weight: bolder;
+}
