@@ -1,4 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh;
     background: url('img/foto.jpg') no-repeat right;
     background-size: 40%;
     background-color: black;
@@ -12,4 +18,18 @@ span {
 
 .enfase {
     font-weight: bolder;
+}
+
+.rosto {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.texto-inicial {
+    margin: 10%;
+}
+
+.maior {
+    font-size: 40px;
 }
