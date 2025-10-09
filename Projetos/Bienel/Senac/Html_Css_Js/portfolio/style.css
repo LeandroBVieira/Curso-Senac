@@ -33,3 +33,7 @@ span {
 .maior {
     font-size: 35px;
 }
+.btn {
+    border: 2px solid orangered;
+    border-radius: 20px;
+    padding: 10px;
