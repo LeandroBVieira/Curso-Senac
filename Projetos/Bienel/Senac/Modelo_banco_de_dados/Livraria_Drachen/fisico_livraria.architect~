@@ -245,11 +245,11 @@ entidade</remarks>
    </folder>
   </table>
   <relationships>
-   <relationship id="REL68" populated="true" UUID="cea96a50-fb3d-4caf-b619-472d831d9c94" deferrability="7" deleteRule="3" fk-table-ref="TAB30" fkCardinality="7" identifying="true" name="Tb_CLIENTE_Tb_PESSOA_FISICA_fk" physicalName="Tb_CLIENTE_Tb_PESSOA_FISICA_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP69" populated="true" UUID="2a2caeaa-bce0-4ed0-99cc-16a3a5a28c37" fk-column-ref="COL31" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   <relationship id="REL68" populated="true" UUID="cea96a50-fb3d-4caf-b619-472d831d9c94" deferrability="7" deleteRule="3" fk-table-ref="TAB30" fkCardinality="3" identifying="true" name="Tb_CLIENTE_Tb_PESSOA_FISICA_fk" physicalName="Tb_CLIENTE_Tb_PESSOA_FISICA_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP69" populated="true" UUID="0471f070-1587-40dd-bebc-06d891882056" fk-column-ref="COL31" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
    </relationship>
-   <relationship id="REL70" populated="true" UUID="b04d42bd-51c9-4f85-ba21-0ab73356c597" deferrability="7" deleteRule="3" fk-table-ref="TAB36" fkCardinality="7" identifying="true" name="Tb_CLIENTE_Tb_PESSOA_JURIDICA_fk" physicalName="Tb_CLIENTE_Tb_PESSOA_JURIDICA_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP71" populated="true" UUID="d74582ba-c9eb-4bdd-82ab-902502029492" fk-column-ref="COL37" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   <relationship id="REL70" populated="true" UUID="b04d42bd-51c9-4f85-ba21-0ab73356c597" deferrability="7" deleteRule="3" fk-table-ref="TAB36" fkCardinality="3" identifying="true" name="Tb_CLIENTE_Tb_PESSOA_JURIDICA_fk" physicalName="Tb_CLIENTE_Tb_PESSOA_JURIDICA_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP71" populated="true" UUID="11794258-d936-483f-9539-34331ae8d9d5" fk-column-ref="COL37" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
    </relationship>
    <relationship id="REL72" populated="true" UUID="f8955b20-363a-4edf-b64a-bb1c0ed38714" deferrability="7" deleteRule="3" fk-table-ref="TAB12" fkCardinality="7" identifying="true" name="Tb_CLIENTE_Tb_PEDIDO_fk" physicalName="Tb_CLIENTE_Tb_PEDIDO_fk" pk-table-ref="TAB1" pkCardinality="3" updateRule="3" >
     <column-mapping id="CMP73" populated="true" UUID="ad51aa23-ac16-4d62-94e0-769b21afbd15" fk-column-ref="COL14" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
@@ -257,8 +257,8 @@ entidade</remarks>
    <relationship id="REL74" populated="true" UUID="a5f0b6d6-bea4-4e4d-ab99-0eeca38af6d7" deferrability="7" deleteRule="3" fk-table-ref="TAB22" fkCardinality="7" identifying="true" name="Tb_PEDIDO_Tb_ITEM_PEDIDO_fk" physicalName="Tb_PEDIDO_Tb_ITEM_PEDIDO_fk" pk-table-ref="TAB12" pkCardinality="3" updateRule="3" >
     <column-mapping id="CMP75" populated="true" UUID="0bc72cd0-a35e-4c71-8d81-c888df1b7df7" fk-column-ref="COL23" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL13" />
    </relationship>
-   <relationship id="REL76" populated="true" UUID="c2efa5a3-9325-441d-8945-c65ce0244280" deferrability="7" deleteRule="3" fk-table-ref="TAB63" fkCardinality="7" identifying="true" name="Tb_LIVRO_Tb_ESTOQUE_fk" physicalName="Tb_LIVRO_Tb_ESTOQUE_fk" pk-table-ref="TAB42" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP77" populated="true" UUID="649088f0-f930-4ba7-b4b6-9d457c30ef05" fk-column-ref="COL64" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL43" />
+   <relationship id="REL76" populated="true" UUID="c2efa5a3-9325-441d-8945-c65ce0244280" deferrability="7" deleteRule="3" fk-table-ref="TAB63" fkCardinality="7" identifying="true" name="Tb_LIVRO_Tb_ESTOQUE_fk" physicalName="Tb_LIVRO_Tb_ESTOQUE_fk" pk-table-ref="TAB42" pkCardinality="3" updateRule="3" >
+    <column-mapping id="CMP77" populated="true" UUID="6ee0d1a6-6bd1-44e9-b306-62d194d13f54" fk-column-ref="COL64" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL43" />
    </relationship>
    <relationship id="REL78" populated="true" UUID="09b33808-148b-4d98-bfb2-71a2e0a4354d" deferrability="7" deleteRule="3" fk-table-ref="TAB22" fkCardinality="7" identifying="true" name="Tb_LIVRO_Tb_ITEM_PEDIDO_fk" physicalName="Tb_LIVRO_Tb_ITEM_PEDIDO_fk" pk-table-ref="TAB42" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP79" populated="true" UUID="7a5f8db8-60f3-40c6-8645-e750826ed590" fk-column-ref="COL24" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL43" />
@@ -266,8 +266,8 @@ entidade</remarks>
    <relationship id="REL80" populated="true" UUID="71c30d8f-072b-4ef2-8635-1d8aa3bd338d" deferrability="7" deleteRule="3" fk-table-ref="TAB12" fkCardinality="7" identifying="true" name="Tb_LIVRO_Tb_PEDIDO_fk" physicalName="Tb_LIVRO_Tb_PEDIDO_fk" pk-table-ref="TAB42" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP81" populated="true" UUID="fe95d953-4cd7-4a1d-a772-0c7acb2f8576" fk-column-ref="COL15" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL43" />
    </relationship>
-   <relationship id="REL82" populated="true" UUID="ef49d17e-3d55-4788-89f9-3509b7237e14" deferrability="7" deleteRule="3" fk-table-ref="TAB42" fkCardinality="7" identifying="true" name="Tb_EDITORA_Tb_LIVRO_fk" physicalName="Tb_EDITORA_Tb_LIVRO_fk" pk-table-ref="TAB55" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP83" populated="true" UUID="2475cd4e-3dbb-4045-aebc-6e1f25db28a5" fk-column-ref="COL44" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL56" />
+   <relationship id="REL82" populated="true" UUID="ef49d17e-3d55-4788-89f9-3509b7237e14" deferrability="7" deleteRule="3" fk-table-ref="TAB42" fkCardinality="7" identifying="true" name="Tb_EDITORA_Tb_LIVRO_fk" physicalName="Tb_EDITORA_Tb_LIVRO_fk" pk-table-ref="TAB55" pkCardinality="3" updateRule="3" >
+    <column-mapping id="CMP83" populated="true" UUID="cf4fab4d-4ced-4780-959f-7dbc830f6eca" fk-column-ref="COL44" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL56" />
    </relationship>
   </relationships>
  </target-database>
@@ -286,7 +286,7 @@ entidade</remarks>
   <table-link relationship-ref="REL68" pkConnection="0.3415841584158416" fkConnection="0.4230769230769231" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
   <table-link relationship-ref="REL70" pkConnection="0.8118811881188119" fkConnection="0.4807692307692308" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
   <table-link relationship-ref="REL74" pkConnection="0.5633802816901409" fkConnection="0.43529411764705883" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
-  <table-link relationship-ref="REL72" pkConnection="0.900990099009901" fkConnection="0.25961538461538464" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL72" pkConnection="0.900990099009901" fkConnection="0.48484848484848486" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="40"/>
   <table-link relationship-ref="REL76" pkConnection="0.8193548387096774" fkConnection="0.0" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="129"/>
   <table-link relationship-ref="REL78" pkConnection="0.9476439790575916" fkConnection="0.22966507177033493" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
   <table-link relationship-ref="REL80" pkConnection="0.3605769230769231" fkConnection="0.5866666666666667" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
