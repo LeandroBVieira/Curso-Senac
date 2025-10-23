@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cabeca {
+    display: inline-flex;
+    justify-content: center;
+    
+}
+
+p {
+    padding: 20px
+}
