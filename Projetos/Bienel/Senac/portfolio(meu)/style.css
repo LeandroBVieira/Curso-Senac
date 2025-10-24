@@ -5,10 +5,9 @@
 
 .cabeca {
     display: inline-flex;
-    justify-content: center;
-    
+    justify-content:center;
 }
 
 p {
-    padding: 20px
+    padding: 30px;
 }
