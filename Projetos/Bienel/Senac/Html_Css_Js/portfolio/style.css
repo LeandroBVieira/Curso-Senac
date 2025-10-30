@@ -59,6 +59,6 @@ border-color;
     display: flex;
 }
 
-.btn_primary {
-    
+.btn_primary:hover {
+    border: 10px solid;
 }
