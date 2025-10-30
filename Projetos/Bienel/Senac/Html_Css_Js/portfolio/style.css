@@ -38,6 +38,7 @@ span {
     border-radius: 20px;
     padding: 10px;
     margin: 5px;
+    width: 40px;
 }
 /*
 border-width;
@@ -46,4 +47,18 @@ border-color;
 */
 .container_btn {
     margin: 10px;
+}
+
+.contact {
+    /padding: 250px 0px 0px;
+    display: grid;
+    position: relative;
+}
+
+.table-contact {
+    display: flex;
+}
+
+.btn_primary {
+    
 }

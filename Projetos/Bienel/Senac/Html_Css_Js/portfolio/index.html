@@ -1,43 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Fontes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-    <header>
-    </header>
+  <body>
+    <header></header>
     <main class="rosto">
-        <section class="texto-inicial">
+      <section class="texto-inicial">
         <!------------------- Texto Inicial ------------>
-            <div>
-                <div class="maior">
-                    <p>Olá</p>
-                    <h1>Eu sou <span> Leandro Vieira </span> e
-                    sou <br> <span>Desenvolvedor Web</span> </h1>
-                </div>
-                <p>Tenho <span class="enfase">10 meses de experiência </span> com Programação</p>
-            </div>
+        <div>
+          <div class="maior">
+            <p>Olá</p>
+            <h1>
+              Eu sou <span> Leandro Vieira </span> e sou <br />
+              <span>Desenvolvedor Web</span>
+            </h1>
+          </div>
+          <p>
+            Tenho <span class="enfase">10 meses de experiência </span> com
+            Programação
+          </p>
+        </div>
 
-            <!-------------------- Botôes ------------------>
-            <div class="container_btn">
-                <br>
-                <a class="btn">Currículo</a>
-                <a class="btn">Me Contrate</a>
-            </div>
-        </section>
-
+        <!-------------------- Botôes ------------------>
+        <div class="container_btn">
+          <br />
+          <a class="btn">Currículo</a>
+          <a class="btn">Me Contrate</a>
+        </div>
+      </section>
     </main>
-    <footer>
 
-    </footer>
-</body>
+    <section class="container contato">
+      <!-- tabela contato -->
+
+      <form method="get">
+        <div class="contact">
+          <div class="table-contact">
+            <div class="field name" id="name">
+              <input type="text" placeholder="Nome" required />
+            </div>
+            <div class="field email" id="email">
+              <input type="email" placeholder="E-mail" required />
+            </div>
+          </div>
+          <div class="field subject" id="subject">
+            <input type="text" placeholder="Assunto" required />
+          </div>
+          <div class="field content" id="content">
+            <textarea cols="30" rows="10" placeholder="Mensagem" required></textarea>
+          </div>
+        </div>
+
+        <div class="btn" id="send">
+          <button class="btn_primary btn_secondary" type="submit"> Enviar </button>
+        </div>
+      </form>
+    </section>
+
+    <footer></footer>
+  </body>
 </html>
