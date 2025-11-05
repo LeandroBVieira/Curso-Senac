@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -33,13 +37,28 @@ span {
 .maior {
     font-size: 35px;
 }
+
 .btn {
+    display: inline-block;
     border: 2px solid orangered;
     border-radius: 20px;
-    padding: 10px;
+    padding: 10px 20px;
     margin: 5px;
-    width: 40px;
+    font-family: inherit;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    appearance: none;
+    -webkit-appearance: none;
 }
+
+.btn:hover {
+  background: orangered;
+  color: black;
+}
+
 /*
 border-width;
 border-style;  -> border: tamanho (width) / tipo (style) / cor (color);
@@ -55,10 +74,33 @@ border-color;
     position: relative;
 }
 
+.name:hover {
+    border: 1px solid orangered;
+}
+
+.email:hover {
+    border: 1px solid orangered;
+}
+
+.subject:hover {
+    width: fit-content;
+    border: 1px solid orangered;
+}
+
+.content:hover {
+    width: fit-content;
+    border: 1px solid orangered;
+}
+
 .table-contact {
     display: flex;
 }
 
-.btn_primary:hover {
-    border: 10px solid;
+.name_contact {
+    font-size: 50px;
+    padding: 40px;
+}
+
+.contato {
+    justify-items: center;
 }
