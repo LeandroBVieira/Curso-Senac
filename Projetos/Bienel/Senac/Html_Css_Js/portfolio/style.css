@@ -50,8 +50,6 @@ span {
     text-decoration: none;
     cursor: pointer;
     transition: 0.5s;
-    appearance: none;
-    -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -69,7 +67,6 @@ border-color;
 }
 
 .contact {
-    /padding: 250px 0px 0px;
     display: grid;
     position: relative;
 }
