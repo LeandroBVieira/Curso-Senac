@@ -48,7 +48,6 @@ span {
     background: transparent;
     color: white;
     text-decoration: none;
-    cursor: pointer;
     transition: 0.5s;
 }
 
@@ -71,22 +70,18 @@ border-color;
     position: relative;
 }
 
-.name:hover {
-    border: 1px solid orangered;
-}
-
-.email:hover {
-    border: 1px solid orangered;
-}
-
-.subject:hover {
-    width: fit-content;
-    border: 1px solid orangered;
-}
-
+.name:hover,
+.email:hover,
+.subject:hover,
 .content:hover {
-    width: fit-content;
     border: 1px solid orangered;
+}
+
+.name,
+.email,
+.subject,
+.content {
+    border-radius: 6px;
 }
 
 .table-contact {
@@ -100,4 +95,9 @@ border-color;
 
 .contato {
     justify-items: center;
+    width: 100%;
+}
+
+.subject {
+    width: 99%;
 }
