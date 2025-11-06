@@ -70,17 +70,17 @@ border-color;
     position: relative;
 }
 
-.name:hover,
-.email:hover,
-.subject:hover,
-.content:hover {
+.name2:hover,
+.email2:hover,
+.subject2:hover,
+.content2:hover {
     border: 1px solid orangered;
 }
 
-.name,
-.email,
-.subject,
-.content {
+.name2,
+.email2,
+.subject2,
+.content2 {
     border-radius: 6px;
 }
 
@@ -98,6 +98,6 @@ border-color;
     width: 100%;
 }
 
-.subject {
+.subject2 {
     width: 99%;
 }
