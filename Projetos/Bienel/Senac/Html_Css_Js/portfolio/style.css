@@ -81,7 +81,11 @@ border-color;
 .email2,
 .subject2,
 .content2 {
-    border-radius: 6px;
+    border-radius: 5px;
+}
+
+.email2 {
+    width: 120%;
 }
 
 .table-contact {
