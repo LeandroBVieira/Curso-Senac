@@ -22,6 +22,6 @@ if (window.location.pathname.includes("pagina-logada.html")) {
     if (!email) {
         window.location.href = './index.html';
     }
-
+    
     document.getElementById( 'campemail' ).innerText = email;
 }
